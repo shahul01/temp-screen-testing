@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.header {
+  background-color: black;
+  color: white;
+}
+.catalogue-left {
+  width: 50%;
+  height: 100vh;
+  float: left;
+}
+.catalogue-right {
+  width: 50%;
+  height: 100vh;
+  background-color: #cfcfc9;
+  display: inline-block;
+}
+.movie-thumbnail {
+  width: 50%;
+}
+.cast-crew-label {
+  font-weight: bold;
+  display: list-item;
+}
+.cast-crew-value {
+  font-weight: 400;
+  font-size: small;
+  display: inline-block;
+}
+.row-list {
+  padding-left: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+.row-selection {
+  background-color: grey;
+}
